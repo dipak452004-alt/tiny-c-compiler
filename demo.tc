@@ -1,0 +1,9 @@
+int n = 5, fact = 1, i;
+for (i = 1; i <= n; i++) {
+    fact = fact * i;
+}
+print(fact);
+if (fact > 100 && n % 2 == 1)
+    print(1);
+else
+    print(0);
